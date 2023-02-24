@@ -1,0 +1,137 @@
+.menuContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 10px;
+  color: #ffffff;
+}
+.menu {
+  position: relative;
+}
+
+.btnCategories {
+  cursor: pointer;
+}
+
+.dropdownMenuCat {
+  position: absolute;
+  top: 50px;
+  width: 300px;
+  height: 450px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  transform: translateX(3%);
+  overflow: hidden;
+  animation: mymove 0.5s ease-in;
+  z-index: 2;
+  option {
+    display: flex;
+    flex-direction: column;
+    color: #595959;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    margin: 20px 20px 0 40px;
+    cursor: pointer;
+  }
+  div > {
+    color: #595959;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+  }
+}
+@keyframes mymove {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 50px;
+  }
+}
+.menuItemCat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 0 40px;
+  cursor: pointer;
+  span {
+    color: #595959;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    font-family: 'Inter';
+  }
+  img {
+    height: 10px;
+    cursor: pointer;
+  }
+  img:hover {
+    height: 15px;
+  }
+}
+
+.dropdownMenuSub {
+  position: absolute;
+  top: 50px;
+  width: 300px;
+  height: 520px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  transform: translateX(3%);
+  overflow: hidden;
+  animation: mymoves 0.5s ease-in;
+  z-index: 2;
+
+  option {
+    display: flex;
+    flex-direction: column;
+    color: #595959;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    margin: 20px 20px 0 40px;
+    cursor: pointer;
+  }
+  > div {
+    color: #595959;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    border-top: 1px solid #bcbcbc;
+  }
+}
+@keyframes mymoves {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 50px;
+  }
+}
+.menuItemSub {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin: 20px;
+  cursor: pointer;
+  span {
+    color: #595959;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'Inter';
+    margin-left: 30px;
+  }
+  img {
+    height: 10px;
+    cursor: pointer;
+  }
+  img:hover {
+    height: 15px;
+  }
+}

@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+.navbarSearchbox {
+  width: 100%;
+  position: relative;
+}
+
+.formControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  padding: 7px 12px;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: #fefefe;
+}
+
+.formControlOpen {
+  border-radius: 20px 20px 0 0;
+}
+.formControlClose {
+  border-radius: 20px;
+}
+
+.searchboxInput .searchboxMain {
+  display: flex;
+  flex: 0.93;
+  border: 1px solid transparent;
+  outline: none;
+  width: 260px;
+  height: 18px;
+  padding: 12px;
+  margin: 0 12px;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #c3c0c0;
+}
+
+.searchboxDropdownOpen .searchboxDropdown {
+  opacity: 1;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.searchboxDropdown {
+  position: absolute;
+  top: 43px;
+  width: 100%;
+  height: auto;
+  max-height: calc(100vh - 64px);
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: auto;
+  z-index: 2;
+  p {
+    border-top: 1px solid #d9d9d9;
+    margin: 0 0 10px;
+    padding: 8px;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  gap: 0px;
+}
+
+.searchboxDropdown .navSearchbox > li > a {
+  position: relative;
+  display: block;
+  padding: 8px 40px;
+  line-height: 16px;
+  color: #bcbcbc;
+}
+
+.nav > li > a > img {
+  margin-right: 10px;
+  filter: opacity(0.4) drop-shadow(0 0 0 #bcbcbc);
+}
+
+.searchBarButton {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  padding-top: 5px;
+  background-color: #f3b917;
+  border-color: #f3b917;
+  border-style: double;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.recentSearch {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.noResults {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #bcbcbc;
+}

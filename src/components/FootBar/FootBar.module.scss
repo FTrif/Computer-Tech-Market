@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+  min-width: 1150px;
+
+  background-color: #001f42;
+  display: flex;
+  align-content: center;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+
+  gap: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.logo {
+  margin-left: 60px;
+  flex-grow: 1;
+}
+
+span {
+  display: flex;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  list-style-type: none;
+  align-items: flex-start;
+  color: #ffffff;
+
+  width: 100%;
+
+  padding: 20;
+  gap: 5px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.footerButtons {
+  display: flex;
+}
+.logoElement {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.downloadFrom {
+  margin-top: 20px;
+  margin-right: 0px;
+}
+
+.footerLogo {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+}
+
+.logoText {
+  margin-left: 270px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+
+  color: #ffffff;
+}

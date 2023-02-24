@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  position: absolute;
+  inset: 90px 0 0 0;
+  z-index: 1;
+  border: 2px;
+  background-color: #ffffff;
+
+  width: 510px;
+  max-width: 100%;
+
+  height: 650px;
+  max-height: 100%;
+
+  flex-grow: 0;
+  padding: 0;
+  overflow: hidden;
+
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: flex-end;
+
+  gap: 30px;
+  width: 510px;
+  max-width: 100%;
+  padding: 0;
+}
+
+hr {
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  font-style: normal;
+  align-self: stretch;
+}
+
+h4 {
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.textLabels {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #595959;
+}
+.closeButton {
+  align-self: flex-end;
+  margin-right: 10px;
+
+  width: 25px;
+  height: 25px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  transform: rotate(45deg);
+  font-size: 30px;
+  line-height: 10px;
+
+  background: transparent;
+  border-radius: 100px;
+  padding: 1.4px;
+  border-color: #595959;
+}
+
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.searchbarInput {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  height: 40px;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border: 0;
+}
+
+.searchbar {
+  width: 400px;
+  min-width: auto;
+  border: 2px solid #bcbcbc;
+  border-radius: 7px;
+}
+
+.elemnt {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #595959;
+}
+
+.checkbox {
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  color: #ffffff;
+  accent-color: #f3b917;
+}
+
+.forgotPassLink {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-left: 130px;
+
+  text-decoration-line: underline;
+
+  color: #595959;
+}
+
+.logginButton {
+  height: 54px;
+  width: 100%;
+  max-width: 400px;
+  min-width: 320px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+
+  background: #f3b917;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border-color: transparent;
+}
+
+.line {
+  display: flex;
+}
+
+.line::before,
+.line::after {
+  content: '';
+  flex: 1 1;
+  width: 165px;
+  border: 1px solid #595959;
+  margin: auto;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 1rem;
+  color: #595959;
+}
+
+.newAccount {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #000000;
+  > label {
+    cursor: pointer;
+  }
+}
+
+@keyframes slidein {
+  from {
+    right: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+  }
+}

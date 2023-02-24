@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.cardsContainer {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  min-width: 1050px;
+
+  gap: 70px;
+  padding: 30px 30px 30px 30px;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  gap: 5px;
+  padding: 30px 30px 30px 30px;
+
+  height: 410px;
+
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+
+  div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  img {
+    height: 156px;
+    margin: auto;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+  }
+
+  label:nth-child(3) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    overflow-wrap: anywhere;
+    /* Secondary / Gray / For Field */
+
+    color: #bcbcbc;
+    padding: 0;
+    border: 0;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17.5px 20px 17.5px 20px;
+    gap: 10px;
+
+    height: 30px;
+
+    /* Main / Yellow */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height */
+
+    /* Main / White */
+
+    color: #ffffff;
+
+    background: #f3b917;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border-color: transparent;
+  }
+
+  // button:after {
+  //   content: 'Adauga in cos';
+  // }
+}
+
+.containerTwo {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  gap: 10px;
+  padding: 30px 30px 30px 30px;
+
+  height: 410px;
+
+  background-color: #001c3c;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+
+  div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  img {
+    margin: auto;
+    height: 156px;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #ffffff;
+  }
+
+  label:nth-child(3) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffffff;
+  }
+
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+
+    /* Secondary / Gray / For Field */
+
+    color: #bcbcbc;
+    padding: 0;
+    border: 0;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17.5px 20px 17.5px 20px;
+    gap: 10px;
+
+    height: 30px;
+
+    /* Main / Yellow */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height */
+
+    /* Main / White */
+
+    color: #ffffff;
+
+    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border-color: #ffffff;
+  }
+
+  // button:after {
+  //   content: 'Vezi anuntul';
+  // }
+}

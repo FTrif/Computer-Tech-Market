@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.forwardTitle {
+  display: flex;
+  align-items: baseline;
+  height: 157px;
+  margin-left: 72px;
+
+  > button {
+    cursor: pointer;
+  }
+  > h1 {
+    display: inline;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-left: 15px;
+  }
+}
+.orderBody {
+  min-width: 900px;
+  padding: 50px;
+  margin: 100px 141px;
+  height: auto;
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+.orderCart {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.orderTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 125px;
+  gap: 150px;
+  margin-left: 80px;
+  > h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+  }
+  > h3:last-child {
+    margin-left: auto;
+  }
+}
+.orderList {
+  display: flex;
+  flex-direction: column;
+  margin-left: 91px;
+  margin-top: 41px;
+  > h1 {
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    width: 900px;
+    max-width: 100%;
+    padding: 10px;
+    list-style: none;
+
+    > li {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    > li > img {
+      width: 50px;
+      height: 33px;
+    }
+    > li:first-child {
+      color: #bcbcbc;
+      cursor: pointer;
+    }
+    > li:last-child {
+      margin-left: auto;
+    }
+
+    li:nth-child(4) {
+      margin-left: 120px;
+    }
+  }
+}
+.orderTotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px;
+  height: 69px;
+  background: #e4f1f9;
+  margin: 0 100px;
+  > h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+}
+
+.continueButton {
+  margin: 40px 30%;
+  button {
+    cursor: pointer;
+    width: 380px;
+    height: 60px;
+    background: #f3b917;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+}

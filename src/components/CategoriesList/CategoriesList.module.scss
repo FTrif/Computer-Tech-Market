@@ -1,0 +1,130 @@
+$borderPagination: 2px solid #bcbcbc;
+$font: 'Montserrat';
+$fontStyle: 'normal';
+$fontWeight: 600;
+$fontSizePagination: 16px;
+$lineHeightPagination: 20px;
+$colorPagination: #bcbcbc;
+
+.categoryTitle {
+  display: flex;
+  align-items: baseline;
+  height: 157px;
+  margin-left: 72px;
+
+  > h1 {
+    display: inline;
+    font-family: $font;
+    font-style: $fontStyle;
+    font-weight: $fontWeight;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 70px;
+  }
+}
+.categoryBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #e4f1f9;
+  height: 69px;
+  margin: 10px 90px;
+  > h3 {
+    margin: 23px;
+  }
+}
+.categoryBody {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 0 80px;
+}
+.paginationBody {
+  display: flex;
+  flex-direction: row;
+}
+.pageItem {
+  border: $borderPagination;
+  font-family: $font;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-size: $fontSizePagination;
+  line-height: $lineHeightPagination;
+  color: $colorPagination;
+  padding: 6px;
+  list-style: none;
+  margin: -10px;
+  cursor: pointer;
+}
+
+.previousArrow {
+  border: $borderPagination;
+  font-family: $font;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-size: $fontSizePagination;
+  line-height: $lineHeightPagination;
+  color: $colorPagination;
+  padding: 6px;
+  list-style: none;
+  cursor: pointer;
+}
+.previousArrow :hover {
+  font-size: 25px;
+}
+.nextArrow {
+  border: $borderPagination;
+  font-family: $font;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-size: $fontSizePagination;
+  line-height: $lineHeightPagination;
+  color: $colorPagination;
+  padding: 6px;
+  list-style: none;
+  cursor: pointer;
+}
+.nextArrow:hover {
+  font-size: 25px;
+}
+
+.breakDots {
+  border: $borderPagination;
+  font-family: $font;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-size: $fontSizePagination;
+  line-height: $lineHeightPagination;
+  color: $colorPagination;
+  padding: 6px;
+  list-style: none;
+  cursor: pointer;
+}
+.activePage {
+  background-color: #f3b917;
+  color: white;
+}
+.containerPagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  > h3 {
+    margin: 30px;
+  }
+}
+.selectContainer {
+  height: 33px;
+  color: #bcbcbc;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 300px;
+}
+.selectContainer:default {
+  border: none;
+}
